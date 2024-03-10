@@ -1,0 +1,142 @@
+.advantages__item-title {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+
+}
+
+.advantages {
+    position: relative;
+}
+
+.advantages::after {
+    content: url("/icons/malina.png");
+    position: absolute;
+    left: 0%;
+    top: 72%;
+}
+
+.advantages__item--after {
+    position: relative;
+}
+
+.advantages__item--after::after {
+    content: url("/icons/bablsend.png");
+    position: absolute;
+    top: 21%;
+    left: 113%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.advantages::before {
+    content: url("/icons/list.png");
+    position: absolute;
+    top: 36%;
+}
+
+.advantages__item-text {
+    font-size: 1.125rem;
+    color: #7a7a7a;
+    line-height: 1.2;
+}
+
+.advantages__item-icon {
+    fill: #2e2e2d;
+    width: 4.375rem;
+    height: 4.1875;
+}
+
+.advantages__item-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 8.125rem;
+    background-color: white;
+    width: 7.9375rem;
+    background-color: #f2f5f4;
+    margin-bottom: 2.1875rem;
+}
+
+.advantages__list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-items: flex-start;
+}
+
+.advantages__item-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18.75rem;
+    margin-right: 5.625rem;
+}
+
+/* .advantages__item-picture::after {
+    content: "";
+    display: block;
+    left: 150px;
+    background-image: url(/icons/bablsend.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    left: 150px;
+    top: 69px;
+} */
+
+.babl-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 14.6875rem;
+    left: 11.5625rem;
+}
+
+.advantages__block-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 31.25rem;
+}
+
+.section {
+    position: relative;
+}
+
+.bob2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 17%;
+}
+
+.bob1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bob3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 24%;
+}

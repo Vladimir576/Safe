@@ -1,0 +1,16 @@
+.footer__nav-item-svg {
+    width: 25px;
+    height: 25px;
+}
+
+.footer__wrapper, .footer__nav-list {
+    display: flex;
+}
+
+.footer__wrapper {
+    width: 60rem;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 5.9375rem;
+}
+

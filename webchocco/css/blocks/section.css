@@ -1,0 +1,27 @@
+.section {
+    height: 100vh;
+    min-height: 40.625rem;
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bars {
+    position: relative;
+    background-image: url("/icons/barsbg.png");
+}
+
+.bars::before {
+    content: url("/icons/yagodabars.png");
+    position: absolute;
+    right: 3%;
+    top: 89%;
+}
+
+.bars::after {
+    content: url("/icons/listbars.png");
+    position: absolute;
+    left: 2%;
+    top: 94%;
+}

@@ -1,0 +1,177 @@
+.header__more-button {
+    display: none;
+}
+
+.section {
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+
+    .nav__list,
+    .addres-phone,
+    .bars__sub-content,
+    .bars::before {
+        display: none;
+    }
+
+    .bars::after {
+        content: url("");
+    }
+
+    .advantages__item {
+        margin-right: 4rem;
+    }
+
+    .bars__content-title-inline {
+        display: inline;
+    }
+
+    .container {
+        width: 48rem;
+        max-width: 48rem;
+    }
+
+    .advantages__item--after::after {
+        content: "";
+    }
+
+    .advantages__item {
+        width: 33%;
+    }
+
+    .advantages::before {
+        top: 1%;
+        left: -3%;
+        z-index: -999;
+
+    }
+
+    .advantages::after {
+        top: 79%;
+
+    }
+
+    .bars__wrapper {
+        height: 100%;
+    }
+
+    .bars__content-title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .header {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bars__content-text {
+        margin-bottom: 1.3rem;
+    }
+
+    .bars__content-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .bars__content {
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: -45px;
+    }
+
+    .header__more-button {
+        display: inline-block;
+        padding-right: 25px;
+    }
+
+    .header__logo {
+        padding-left: 25px;
+
+    }
+
+    .bars {
+        position: relative;
+        background-image: url(/icons/barsbg780.png);
+        background-color: #86c3d7;
+    }
+
+    .reviews__block-img {
+        max-width: 135px;
+        max-height: 135px;
+    }
+
+    .reviews__block-content {
+        text-align: center;
+    }
+
+    .reviews__block-content {
+        flex-direction: column;
+    }
+
+    .reviews__block-icon {
+        margin-right: 0rem;
+        margin-bottom: 30px;
+    }
+
+    .reviews__block-title {
+        margin-bottom: 1.2rem;
+    }
+
+    .delivery {
+        background-repeat: repeat;
+    }
+
+    .reviews__commentators {
+        z-index: 999;
+    }
+
+    .delivery::after {
+        content: "";
+    }
+
+    .delivery::before {
+        content: "";
+    }
+
+    .form__delivery {
+        flex-direction: column;
+    }
+
+    .delivery__title {
+        text-align: center;
+    }
+
+    .delivery__buttons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .delivery__title {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 480px) {}
+
+.bars__wrapper {
+    width: 100%;
+}
+
+.reviews__block::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 95%;
+}

@@ -1,0 +1,102 @@
+.reviews__block {
+    background-color: #f8faf9;
+}
+
+.reviews {
+    position: relative;
+}
+
+.reviews::before {
+    content: url("/icons/klubnikarew.png");
+    position: absolute;
+    right: 14%;
+    top: 8%;
+}
+
+.reviews::after {
+    content: url("/icons/yagodireview.png");
+    position: absolute;
+    top: 78%;
+}
+
+.reviews__block {
+    position: relative;
+}
+
+.reviews__block::before {
+    content: url("/icons/yagodigrayrev.png");
+    position: absolute;
+    right: 0;
+}
+
+.universal-title {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+}
+
+.reviews__block-text {
+    font-size: 1.125rem;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    margin-bottom: 1.875rem;
+}
+
+.reviews__block-author {
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.reviews__block-content {
+    padding: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.reviews__block {
+    margin-bottom: 1.25rem;
+}
+
+.reviews__block-info {
+    max-width: 30rem;
+}
+
+.reviews__block-title {
+    font-size: 1.875rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1.875rem;
+}
+
+.reviews__block-icon {
+    margin-right: 1.25rem;
+}
+
+.reviews__block-img {
+    object-fit: cover;
+}
+
+.reviews__commentators-item {
+    margin-right: 1.2rem;
+}
+
+
+.reviews__commentators-list {
+    display: flex;
+    align-items: center;
+}
+
+.reviews__commentators-img--active {
+border: 0.1875rem solid #365a49;
+border-radius: 50%;
+padding: 0;
+margin: 0;
+}
+

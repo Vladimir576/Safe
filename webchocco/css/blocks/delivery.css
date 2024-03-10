@@ -1,0 +1,249 @@
+.delivery {
+    position: relative;
+    background-image: url(/icons/delivery.png);
+    color: #365b4a;
+}
+
+.delivery::before {
+    content: url("/icons/chernica.png");
+    position: absolute;
+    top: 80%;
+    left: 15%;
+}
+
+.delivery::after {
+    content: url("/icons/listform.png");
+    position: absolute;
+    top: 57%;
+    right: 0%;
+}
+
+.form__delivery {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.delivery__first {
+    display: flex;
+    align-items: center;
+    width: 470px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delivery__name,
+.delivery__phone {
+    width: 50%;
+}
+
+.bob {
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delivery__street,
+.delivery__street-input {
+    width: 100%;
+}
+
+/*  */
+
+.delivery__textarea {
+    width: 460px;
+    height: 180px;
+    resize: none;
+    margin-bottom: 22px;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.form__row {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.form__input,
+.form__label {
+    width: 100%;
+}
+
+.form__input {
+    background-color: #fff;
+    min-height: 3.75rem;
+    border: none;
+    outline: none;
+    outline-offset: none;
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+    padding-left: 0.6875rem;
+}
+
+.delivery__textarea {
+    border: none;
+    outline: none;
+    outline-offset: none;
+    box-sizing: border-box;
+    height: 11.25rem;
+}
+
+.form__input:focus,:checked {
+    border-style: solid;
+    border-width: 0.1875rem;
+    border-color: rgb(222, 226, 189);
+}
+
+.delivery__textarea:focus,:checked {
+    border-style: solid;
+    border-width: 0.1875rem;
+    border-color: rgb(222, 226, 189);
+}
+
+.form__label {
+    margin-right: 1.25rem;
+}
+
+.delivery__name-text,
+.delivery__comments-text {
+    margin-bottom: 0.4375rem;
+    font-size: 1.125rem;
+    line-height: 1.667;
+}
+
+.form__controls,
+.radio {
+    display: flex;
+}
+
+.radio {
+    align-items: center;
+    margin-right: 1.375rem;
+
+}
+
+.radio__elem-call {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.radio__elem-call:checked+.radio__visible-call::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.radio__visible-call {
+    display: inline-flex;
+    background-color: #fff;
+    position: relative;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    margin-right: 0.625rem;
+}
+
+.radio__visible-call::before {
+    content: "";
+    background-image: url("/icons/galochka.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s;
+
+}
+
+.radio__elem:checked+.radio__visible::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+
+.radio__visible {
+    display: inline-flex;
+    background-color: #fff;
+    position: relative;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    border-radius: 50%;
+    margin-right: 0.625rem;
+}
+
+.radio__elem {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.delivery__title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.radio__visible::before {
+    content: "";
+    background-color: #365a49;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s;
+}
+
+.form__controls {
+    margin-bottom: 0.625rem;
+}
+
+.form__controls--bottom {
+    margin-bottom: 2.5rem;
+}
+
+.btn-universal {
+    line-height: 1.2;
+    font-size: 1.1875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    background-color: #355a49;
+    color: white;
+    transition: 0.4s;
+    padding: 1.125rem 2.5625rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 6.25rem;
+    margin-right: 1,5625rem;
+    cursor: pointer;
+}
+
+.delivery__buttons-reset {
+    border: none;
+    background-color: none;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: black;
+    line-height: 1.667;
+    background: none;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.addres-phone__number {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin-left: 0.5rem;
+}
+
+.addres-phone__svg {
+fill: #ffffff;
+}
+
+.addres-phone__link {
+    display: flex;
+    align-items: center;
+}
+

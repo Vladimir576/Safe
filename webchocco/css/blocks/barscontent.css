@@ -1,0 +1,26 @@
+.bars__content-text {
+    width: 23.75;
+    font-size: 1.3rem;
+    margin-bottom: 33px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+
+
+}
+
+.bars__content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.bars__content-title {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 1.5625rem;
+
+
+}
